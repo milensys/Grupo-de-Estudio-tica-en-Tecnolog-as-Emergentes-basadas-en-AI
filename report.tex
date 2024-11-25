@@ -1,0 +1,111 @@
+\documentclass{layout/epfl-report}
+\usepackage{csquotes}
+
+%% Configuración de la bibliografía
+\usepackage[spanish]{babel} % Idioma español
+\usepackage{svg}
+\usepackage{pdflscape}
+\usepackage{listings}
+
+% Configuración básica
+\lstset{
+  basicstyle=\ttfamily\small, % Estilo básico del texto
+  frame=single, % Marco alrededor del código
+  backgroundcolor=\color{gray!10}, % Fondo gris claro
+  keywordstyle=\bfseries\color{blue}, % Palabras clave en azul
+  breaklines=true, % Divide líneas largas automáticamente
+  columns=flexible % Ajusta el espaciado entre caracteres
+}
+
+\usepackage{biblatex}
+%\addbibresource{report.bib}
+\addbibresource{references/chapter-1.bib}
+%\addbibresource{chapter-2.bib}
+%\addbibresource{chapter-3.bib}
+%\addbibresource{chapter-4.bib}
+%\addbibresource{chapter-5.bib}
+%\addbibresource{chapter-6.bib}
+%\addbibresource{chapter-7.bib}
+%\addbibresource{chapter-8.bib}
+%\addbibresource{chapter-9.bib}
+%\addbibresource{chapter-10.bib}
+
+%% Paquetes adicionales y comandos
+\usepackage{graphicx}
+\setlist{itemsep=-2pt} % Reducir el espacio en listas
+\renewcommand{\deg}{\si{\degree}\xspace} % Usar \deg fácilmente
+
+%% ----------------------------------------------------------------------
+%%    Inicio del documento + Portada (Numeración romana)
+%% ----------------------------------------------------------------------
+
+\begin{document}
+
+\frontmatter
+
+%% Definición de parámetros principales
+\title{Consideraciones éticas en el desarrollo e implementación de tecnologías emergentes basadas en IA}
+%\subtitle{Explorando dilemas éticos}
+%\author{Nombre del Autor}
+
+\subject{Grupo de Estudio: Ética en Tecnologías Emergentes Basadas en AI} % Solo para la portada
+%\affiliation{Ecole Polytechnique Fédérale de Lausanne (EPFL)} % Solo para la portada
+\coverimage{figures/cover8} % Relación de aspecto 2:3 (retrato) recomendada
+\definecolor{title}{HTML}{FF6600} % Color para el título de la portada (naranja brillante)
+
+
+\makecover
+
+\input{frontmatter/title-report}
+%\input{frontmatter/preface}
+\input{frontmatter/summary}
+
+\tableofcontents
+%\listoffigures
+%\listoftables
+
+\input{frontmatter/nomenclature}
+
+%% ----------------------------------------------------------------------
+%%    Cuerpo del documento (Numeración arábiga)
+%% ----------------------------------------------------------------------
+
+\mainmatter
+
+% Introducción en español
+
+\input{mainmatter/chapter-1/introduction} 
+% Imprimir la bibliografía del capítulo 1
+
+%\input{mainmatter/chapter-2/chapter-2}
+%\input{mainmatter/chapter-2/chapter-3}
+%\input{mainmatter/chapter-2/chapter-4}
+%\input{mainmatter/chapter-2/chapter-5}
+%\input{mainmatter/chapter-2/chapter-6}
+%\input{mainmatter/chapter-2/chapter-7}
+%\input{mainmatter/chapter-2/chapter-8}
+%\input{mainmatter/chapter-2/chapter-9}
+%\input{mainmatter/chapter-2/chapter-10}
+
+
+%\input{mainmatter/conclusion}
+
+%% Evitar URLs largos que rompan el formato en la bibliografía
+\setcounter{biburlnumpenalty}{7000}
+\setcounter{biburllcpenalty}{7000}
+\setcounter{biburlucpenalty}{7000}
+
+%% Agregar bibliografía
+%\printbibliography[heading=bibintoc,title=Referencias]
+
+%% ----------------------------------------------------------------------
+%%    Apéndices (Letras para capítulos)
+%% ----------------------------------------------------------------------
+
+\appendix
+
+\input{appendix/appendix-a}
+\input{appendix/appendix-b}
+
+
+\end{document}

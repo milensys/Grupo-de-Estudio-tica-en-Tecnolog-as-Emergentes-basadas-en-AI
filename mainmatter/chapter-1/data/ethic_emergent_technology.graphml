@@ -1,0 +1,1697 @@
+<?xml version="1.0" encoding="UTF-8"?><graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="r" attr.type="int" for="node" id="r"/>
+    <key attr.name="g" attr.type="int" for="node" id="g"/>
+    <key attr.name="b" attr.type="int" for="node" id="b"/>
+    <key attr.name="x" attr.type="float" for="node" id="x"/>
+    <key attr.name="y" attr.type="float" for="node" id="y"/>
+    <key attr.name="size" attr.type="float" for="node" id="size"/>
+    <key attr.name="Degree" attr.type="int" for="node" id="degree"/>
+    <key attr.name="Modularity Class" attr.type="int" for="node" id="modularity_class"/>
+    <key attr.name="Weighted Degree" attr.type="double" for="node" id="weighted degree"/>
+    <key attr.name="Inferred Class" attr.type="int" for="node" id="stat_inf_class"/>
+    <graph edgedefault="undirected">
+        <node id="2">
+            <data key="label">ethics</data>
+            <data key="degree">4</data>
+            <data key="modularity_class">41</data>
+            <data key="weighted degree">4.0</data>
+            <data key="stat_inf_class">5</data>
+            <data key="size">69.09091</data>
+            <data key="r">236</data>
+            <data key="g">196</data>
+            <data key="b">57</data>
+            <data key="x">487.1</data>
+            <data key="y">285.3304</data>
+        </node>
+        <node id="3">
+            <data key="label">emerging technologies</data>
+            <data key="degree">2</data>
+            <data key="modularity_class">41</data>
+            <data key="weighted degree">2.0</data>
+            <data key="stat_inf_class">5</data>
+            <data key="size">54.545456</data>
+            <data key="r">236</data>
+            <data key="g">196</data>
+            <data key="b">57</data>
+            <data key="x">285.0991</data>
+            <data key="y">392.01923</data>
+        </node>
+        <node id="5">
+            <data key="label">robotics</data>
+            <data key="degree">0</data>
+            <data key="modularity_class">0</data>
+            <data key="weighted degree">0.0</data>
+            <data key="stat_inf_class">0</data>
+            <data key="size">40.0</data>
+            <data key="r">0</data>
+            <data key="g">251</data>
+            <data key="b">0</data>
+            <data key="x">705.8176</data>
+            <data key="y">-235.71432</data>
+        </node>
+        <node id="8">
+            <data key="label">bioethics</data>
+            <data key="degree">0</data>
+            <data key="modularity_class">1</data>
+            <data key="weighted degree">0.0</data>
+            <data key="stat_inf_class">1</data>
+            <data key="size">40.0</data>
+            <data key="r">255</data>
+            <data key="g">117</data>
+            <data key="b">0</data>
+            <data key="x">-332.94693</data>
+            <data key="y">-152.85309</data>
+        </node>
+        <node id="9">
+            <data key="label">covid-19</data>
+            <data key="degree">1</data>
+            <data key="modularity_class">5</data>
+            <data key="weighted degree">1.0</data>
+            <data key="stat_inf_class">5</data>
+            <data key="size">47.272728</data>
+            <data key="r">162</data>
+            <data key="g">150</data>
+            <data key="b">179</data>
+            <data key="x">-465.0723</data>
+            <data key="y">-305.5235</data>
+        </node>
+        <node id="10">
+            <data key="label">policy</data>
+            <data key="degree">2</data>
+            <data key="modularity_class">5</data>
+            <data key="weighted degree">2.0</data>
+            <data key="stat_inf_class">5</data>
+            <data key="size">54.545456</data>
+            <data key="r">162</data>
+            <data key="g">150</data>
+            <data key="b">179</data>
+            <data key="x">-87.48167</data>
+            <data key="y">229.36847</data>
+        </node>
+        <node id="12">
+            <data key="label">ai ethics</data>
+            <data key="degree">0</data>
+            <data key="modularity_class">2</data>
+            <data key="weighted degree">0.0</data>
+            <data key="stat_inf_class">2</data>
+            <data key="size">40.0</data>
+            <data key="r">0</data>
+            <data key="g">255</data>
+            <data key="b">255</data>
+            <data key="x">-1104.2563</data>
+            <data key="y">-559.8924</data>
+        </node>
+        <node id="13">
+            <data key="label">health</data>
+            <data key="degree">1</data>
+            <data key="modularity_class">5</data>
+            <data key="weighted degree">1.0</data>
+            <data key="stat_inf_class">5</data>
+            <data key="size">47.272728</data>
+            <data key="r">162</data>
+            <data key="g">150</data>
+            <data key="b">179</data>
+            <data key="x">472.48752</data>
+            <data key="y">-126.44294</data>
+        </node>
+        <node id="14">
+            <data key="label">healthcare</data>
+            <data key="degree">1</data>
+            <data key="modularity_class">5</data>
+            <data key="weighted degree">1.0</data>
+            <data key="stat_inf_class">5</data>
+            <data key="size">47.272728</data>
+            <data key="r">162</data>
+            <data key="g">150</data>
+            <data key="b">179</data>
+            <data key="x">417.2811</data>
+            <data key="y">-381.94165</data>
+        </node>
+        <node id="15">
+            <data key="label">human rights</data>
+            <data key="degree">0</data>
+            <data key="modularity_class">3</data>
+            <data key="weighted degree">0.0</data>
+            <data key="stat_inf_class">3</data>
+            <data key="size">40.0</data>
+            <data key="r">255</data>
+            <data key="g">137</data>
+            <data key="b">255</data>
+            <data key="x">1848.8652</data>
+            <data key="y">-786.648</data>
+        </node>
+        <node id="17">
+            <data key="label">patient care</data>
+            <data key="degree">2</data>
+            <data key="modularity_class">41</data>
+            <data key="weighted degree">2.0</data>
+            <data key="stat_inf_class">5</data>
+            <data key="size">54.545456</data>
+            <data key="r">236</data>
+            <data key="g">196</data>
+            <data key="b">57</data>
+            <data key="x">-502.53735</data>
+            <data key="y">325.48862</data>
+        </node>
+        <node id="18">
+            <data key="label">privacy</data>
+            <data key="degree">0</data>
+            <data key="modularity_class">4</data>
+            <data key="weighted degree">0.0</data>
+            <data key="stat_inf_class">4</data>
+            <data key="size">40.0</data>
+            <data key="r">255</data>
+            <data key="g">100</data>
+            <data key="b">177</data>
+            <data key="x">1318.8162</data>
+            <data key="y">-478.17355</data>
+        </node>
+        <node id="19">
+            <data key="label">regulation</data>
+            <data key="degree">2</data>
+            <data key="modularity_class">5</data>
+            <data key="weighted degree">2.0</data>
+            <data key="stat_inf_class">5</data>
+            <data key="size">54.545456</data>
+            <data key="r">162</data>
+            <data key="g">150</data>
+            <data key="b">179</data>
+            <data key="x">-501.54016</data>
+            <data key="y">-40.228096</data>
+        </node>
+        <node id="20">
+            <data key="label">responsible research and innovation</data>
+            <data key="degree">0</data>
+            <data key="modularity_class">6</data>
+            <data key="weighted degree">0.0</data>
+            <data key="stat_inf_class">6</data>
+            <data key="size">40.0</data>
+            <data key="r">0</data>
+            <data key="g">154</data>
+            <data key="b">101</data>
+            <data key="x">-2012.9071</data>
+            <data key="y">-731.5573</data>
+        </node>
+        <node id="21">
+            <data key="label">risk</data>
+            <data key="degree">0</data>
+            <data key="modularity_class">7</data>
+            <data key="weighted degree">0.0</data>
+            <data key="stat_inf_class">7</data>
+            <data key="size">40.0</data>
+            <data key="r">35</data>
+            <data key="g">50</data>
+            <data key="b">9</data>
+            <data key="x">297.92972</data>
+            <data key="y">958.5348</data>
+        </node>
+        <node id="22">
+            <data key="label">safety</data>
+            <data key="degree">0</data>
+            <data key="modularity_class">8</data>
+            <data key="weighted degree">0.0</data>
+            <data key="stat_inf_class">8</data>
+            <data key="size">40.0</data>
+            <data key="r">0</data>
+            <data key="g">221</data>
+            <data key="b">255</data>
+            <data key="x">-301.45444</data>
+            <data key="y">-650.38715</data>
+        </node>
+        <node id="24">
+            <data key="label">(genai)</data>
+            <data key="degree">0</data>
+            <data key="modularity_class">9</data>
+            <data key="weighted degree">0.0</data>
+            <data key="stat_inf_class">9</data>
+            <data key="size">40.0</data>
+            <data key="r">0</data>
+            <data key="g">134</data>
+            <data key="b">176</data>
+            <data key="x">-275.3722</data>
+            <data key="y">-1068.3506</data>
+        </node>
+        <node id="25">
+            <data key="label">``decent work''</data>
+            <data key="degree">0</data>
+            <data key="modularity_class">10</data>
+            <data key="weighted degree">0.0</data>
+            <data key="stat_inf_class">10</data>
+            <data key="size">40.0</data>
+            <data key="r">151</data>
+            <data key="g">22</data>
+            <data key="b">58</data>
+            <data key="x">-1640.8577</data>
+            <data key="y">1100.5105</data>
+        </node>
+        <node id="26">
+            <data key="label">actor mobilisation</data>
+            <data key="degree">0</data>
+            <data key="modularity_class">11</data>
+            <data key="weighted degree">0.0</data>
+            <data key="stat_inf_class">11</data>
+            <data key="size">40.0</data>
+            <data key="r">160</data>
+            <data key="g">241</data>
+            <data key="b">147</data>
+            <data key="x">-796.94574</data>
+            <data key="y">532.7317</data>
+        </node>
+        <node id="27">
+            <data key="label">administration of justice</data>
+            <data key="degree">0</data>
+            <data key="modularity_class">12</data>
+            <data key="weighted degree">0.0</data>
+            <data key="stat_inf_class">12</data>
+            <data key="size">40.0</data>
+            <data key="r">211</data>
+            <data key="g">59</data>
+            <data key="b">183</data>
+            <data key="x">-709.788</data>
+            <data key="y">270.07892</data>
+        </node>
+        <node id="28">
+            <data key="label">advanced manufacturing</data>
+            <data key="degree">0</data>
+            <data key="modularity_class">13</data>
+            <data key="weighted degree">0.0</data>
+            <data key="stat_inf_class">13</data>
+            <data key="size">40.0</data>
+            <data key="r">255</data>
+            <data key="g">152</data>
+            <data key="b">107</data>
+            <data key="x">819.49335</data>
+            <data key="y">-809.32074</data>
+        </node>
+        <node id="29">
+            <data key="label">advertising</data>
+            <data key="degree">0</data>
+            <data key="modularity_class">14</data>
+            <data key="weighted degree">0.0</data>
+            <data key="stat_inf_class">14</data>
+            <data key="size">40.0</data>
+            <data key="r">167</data>
+            <data key="g">220</data>
+            <data key="b">0</data>
+            <data key="x">761.2768</data>
+            <data key="y">395.49753</data>
+        </node>
+        <node id="30">
+            <data key="label">ai ethics guidelines</data>
+            <data key="degree">0</data>
+            <data key="modularity_class">15</data>
+            <data key="weighted degree">0.0</data>
+            <data key="stat_inf_class">15</data>
+            <data key="size">40.0</data>
+            <data key="r">133</data>
+            <data key="g">135</data>
+            <data key="b">255</data>
+            <data key="x">-308.3313</data>
+            <data key="y">18.127083</data>
+        </node>
+        <node id="31">
+            <data key="label">ai governance</data>
+            <data key="degree">0</data>
+            <data key="modularity_class">16</data>
+            <data key="weighted degree">0.0</data>
+            <data key="stat_inf_class">16</data>
+            <data key="size">40.0</data>
+            <data key="r">0</data>
+            <data key="g">152</data>
+            <data key="b">0</data>
+            <data key="x">-1009.138</data>
+            <data key="y">1165.8553</data>
+        </node>
+        <node id="32">
+            <data key="label">algorithm aversion</data>
+            <data key="degree">0</data>
+            <data key="modularity_class">17</data>
+            <data key="weighted degree">0.0</data>
+            <data key="stat_inf_class">17</data>
+            <data key="size">40.0</data>
+            <data key="r">0</data>
+            <data key="g">255</data>
+            <data key="b">254</data>
+            <data key="x">-270.8561</data>
+            <data key="y">177.9812</data>
+        </node>
+        <node id="145">
+            <data key="label">(cavs)</data>
+            <data key="degree">0</data>
+            <data key="modularity_class">18</data>
+            <data key="weighted degree">0.0</data>
+            <data key="stat_inf_class">18</data>
+            <data key="size">40.0</data>
+            <data key="r">0</data>
+            <data key="g">53</data>
+            <data key="b">78</data>
+            <data key="x">300.5318</data>
+            <data key="y">-218.55536</data>
+        </node>
+        <node id="35">
+            <data key="label">assessment</data>
+            <data key="degree">0</data>
+            <data key="modularity_class">19</data>
+            <data key="weighted degree">0.0</data>
+            <data key="stat_inf_class">19</data>
+            <data key="size">40.0</data>
+            <data key="r">255</data>
+            <data key="g">205</data>
+            <data key="b">178</data>
+            <data key="x">288.21982</data>
+            <data key="y">581.49835</data>
+        </node>
+        <node id="36">
+            <data key="label">automation</data>
+            <data key="degree">0</data>
+            <data key="modularity_class">20</data>
+            <data key="weighted degree">0.0</data>
+            <data key="stat_inf_class">20</data>
+            <data key="size">40.0</data>
+            <data key="r">158</data>
+            <data key="g">89</data>
+            <data key="b">0</data>
+            <data key="x">-427.04642</data>
+            <data key="y">134.2697</data>
+        </node>
+        <node id="142">
+            <data key="label">deep learning (dl)</data>
+            <data key="degree">0</data>
+            <data key="modularity_class">21</data>
+            <data key="weighted degree">0.0</data>
+            <data key="stat_inf_class">21</data>
+            <data key="size">40.0</data>
+            <data key="r">106</data>
+            <data key="g">152</data>
+            <data key="b">124</data>
+            <data key="x">-1225.9795</data>
+            <data key="y">339.7528</data>
+        </node>
+        <node id="39">
+            <data key="label">autonomy levels</data>
+            <data key="degree">0</data>
+            <data key="modularity_class">22</data>
+            <data key="weighted degree">0.0</data>
+            <data key="stat_inf_class">22</data>
+            <data key="size">40.0</data>
+            <data key="r">255</data>
+            <data key="g">183</data>
+            <data key="b">236</data>
+            <data key="x">-726.01373</data>
+            <data key="y">1400.5326</data>
+        </node>
+        <node id="40">
+            <data key="label">behavioral outcomes</data>
+            <data key="degree">0</data>
+            <data key="modularity_class">23</data>
+            <data key="weighted degree">0.0</data>
+            <data key="stat_inf_class">23</data>
+            <data key="size">40.0</data>
+            <data key="r">0</data>
+            <data key="g">246</data>
+            <data key="b">255</data>
+            <data key="x">1773.2305</data>
+            <data key="y">-285.22144</data>
+        </node>
+        <node id="41">
+            <data key="label">bias</data>
+            <data key="degree">0</data>
+            <data key="modularity_class">24</data>
+            <data key="weighted degree">0.0</data>
+            <data key="stat_inf_class">24</data>
+            <data key="size">40.0</data>
+            <data key="r">255</data>
+            <data key="g">194</data>
+            <data key="b">0</data>
+            <data key="x">158.16916</data>
+            <data key="y">-645.4513</data>
+        </node>
+        <node id="42">
+            <data key="label">biometric data</data>
+            <data key="degree">0</data>
+            <data key="modularity_class">25</data>
+            <data key="weighted degree">0.0</data>
+            <data key="stat_inf_class">25</data>
+            <data key="size">40.0</data>
+            <data key="r">110</data>
+            <data key="g">140</data>
+            <data key="b">0</data>
+            <data key="x">-524.61993</data>
+            <data key="y">1039.6287</data>
+        </node>
+        <node id="43">
+            <data key="label">biotechnology</data>
+            <data key="degree">0</data>
+            <data key="modularity_class">26</data>
+            <data key="weighted degree">0.0</data>
+            <data key="stat_inf_class">26</data>
+            <data key="size">40.0</data>
+            <data key="r">212</data>
+            <data key="g">199</data>
+            <data key="b">255</data>
+            <data key="x">718.90814</data>
+            <data key="y">230.31483</data>
+        </node>
+        <node id="44">
+            <data key="label">buildings</data>
+            <data key="degree">0</data>
+            <data key="modularity_class">27</data>
+            <data key="weighted degree">0.0</data>
+            <data key="stat_inf_class">27</data>
+            <data key="size">40.0</data>
+            <data key="r">255</data>
+            <data key="g">0</data>
+            <data key="b">80</data>
+            <data key="x">-1218.1409</data>
+            <data key="y">-299.01788</data>
+        </node>
+        <node id="45">
+            <data key="label">case studies</data>
+            <data key="degree">0</data>
+            <data key="modularity_class">28</data>
+            <data key="weighted degree">0.0</data>
+            <data key="stat_inf_class">28</data>
+            <data key="size">40.0</data>
+            <data key="r">255</data>
+            <data key="g">88</data>
+            <data key="b">225</data>
+            <data key="x">-962.21277</data>
+            <data key="y">-1037.8807</data>
+        </node>
+        <node id="46">
+            <data key="label">chatgpt</data>
+            <data key="degree">0</data>
+            <data key="modularity_class">29</data>
+            <data key="weighted degree">0.0</data>
+            <data key="stat_inf_class">29</data>
+            <data key="size">40.0</data>
+            <data key="r">0</data>
+            <data key="g">236</data>
+            <data key="b">197</data>
+            <data key="x">42.59823</data>
+            <data key="y">-442.9862</data>
+        </node>
+        <node id="47">
+            <data key="label">competence-based curriculum</data>
+            <data key="degree">0</data>
+            <data key="modularity_class">30</data>
+            <data key="weighted degree">0.0</data>
+            <data key="stat_inf_class">30</data>
+            <data key="size">40.0</data>
+            <data key="r">0</data>
+            <data key="g">255</data>
+            <data key="b">143</data>
+            <data key="x">-2287.445</data>
+            <data key="y">-309.1308</data>
+        </node>
+        <node id="48">
+            <data key="label">computing</data>
+            <data key="degree">0</data>
+            <data key="modularity_class">31</data>
+            <data key="weighted degree">0.0</data>
+            <data key="stat_inf_class">31</data>
+            <data key="size">40.0</data>
+            <data key="r">0</data>
+            <data key="g">124</data>
+            <data key="b">100</data>
+            <data key="x">-1398.9877</data>
+            <data key="y">-1065.5029</data>
+        </node>
+        <node id="50">
+            <data key="label">converging technology</data>
+            <data key="degree">0</data>
+            <data key="modularity_class">32</data>
+            <data key="weighted degree">0.0</data>
+            <data key="stat_inf_class">32</data>
+            <data key="size">40.0</data>
+            <data key="r">76</data>
+            <data key="g">32</data>
+            <data key="b">36</data>
+            <data key="x">-629.06384</data>
+            <data key="y">-545.9893</data>
+        </node>
+        <node id="51">
+            <data key="label">convoluted neural</data>
+            <data key="degree">0</data>
+            <data key="modularity_class">33</data>
+            <data key="weighted degree">0.0</data>
+            <data key="stat_inf_class">33</data>
+            <data key="size">40.0</data>
+            <data key="r">123</data>
+            <data key="g">65</data>
+            <data key="b">146</data>
+            <data key="x">-365.18497</data>
+            <data key="y">687.7946</data>
+        </node>
+        <node id="52">
+            <data key="label">convolutional neural networks</data>
+            <data key="degree">0</data>
+            <data key="modularity_class">34</data>
+            <data key="weighted degree">0.0</data>
+            <data key="stat_inf_class">34</data>
+            <data key="size">40.0</data>
+            <data key="r">133</data>
+            <data key="g">237</data>
+            <data key="b">62</data>
+            <data key="x">-1663.9922</data>
+            <data key="y">-835.6137</data>
+        </node>
+        <node id="53">
+            <data key="label">cybersecurity</data>
+            <data key="degree">0</data>
+            <data key="modularity_class">35</data>
+            <data key="weighted degree">0.0</data>
+            <data key="stat_inf_class">35</data>
+            <data key="size">40.0</data>
+            <data key="r">131</data>
+            <data key="g">228</data>
+            <data key="b">253</data>
+            <data key="x">660.5545</data>
+            <data key="y">639.31146</data>
+        </node>
+        <node id="54">
+            <data key="label">data dividends</data>
+            <data key="degree">0</data>
+            <data key="modularity_class">36</data>
+            <data key="weighted degree">0.0</data>
+            <data key="stat_inf_class">36</data>
+            <data key="size">40.0</data>
+            <data key="r">197</data>
+            <data key="g">110</data>
+            <data key="b">85</data>
+            <data key="x">1521.5951</data>
+            <data key="y">527.4434</data>
+        </node>
+        <node id="55">
+            <data key="label">data ethics</data>
+            <data key="degree">0</data>
+            <data key="modularity_class">37</data>
+            <data key="weighted degree">0.0</data>
+            <data key="stat_inf_class">37</data>
+            <data key="size">40.0</data>
+            <data key="r">0</data>
+            <data key="g">93</data>
+            <data key="b">156</data>
+            <data key="x">1337.9696</data>
+            <data key="y">-223.69757</data>
+        </node>
+        <node id="56">
+            <data key="label">data science</data>
+            <data key="degree">0</data>
+            <data key="modularity_class">38</data>
+            <data key="weighted degree">0.0</data>
+            <data key="stat_inf_class">38</data>
+            <data key="size">40.0</data>
+            <data key="r">255</data>
+            <data key="g">66</data>
+            <data key="b">4</data>
+            <data key="x">-465.05142</data>
+            <data key="y">-500.79352</data>
+        </node>
+        <node id="57">
+            <data key="label">datafication</data>
+            <data key="degree">0</data>
+            <data key="modularity_class">39</data>
+            <data key="weighted degree">0.0</data>
+            <data key="stat_inf_class">39</data>
+            <data key="size">40.0</data>
+            <data key="r">208</data>
+            <data key="g">199</data>
+            <data key="b">118</data>
+            <data key="x">-87.3453</data>
+            <data key="y">431.41064</data>
+        </node>
+        <node id="58">
+            <data key="label">decision-making</data>
+            <data key="degree">0</data>
+            <data key="modularity_class">40</data>
+            <data key="weighted degree">0.0</data>
+            <data key="stat_inf_class">40</data>
+            <data key="size">40.0</data>
+            <data key="r">236</data>
+            <data key="g">215</data>
+            <data key="b">0</data>
+            <data key="x">-1732.588</data>
+            <data key="y">521.2839</data>
+        </node>
+        <node id="143">
+            <data key="label">machine learning</data>
+            <data key="degree">2</data>
+            <data key="modularity_class">41</data>
+            <data key="weighted degree">2.0</data>
+            <data key="stat_inf_class">5</data>
+            <data key="size">54.545456</data>
+            <data key="r">236</data>
+            <data key="g">196</data>
+            <data key="b">57</data>
+            <data key="x">291.26263</data>
+            <data key="y">158.51762</data>
+        </node>
+        <node id="61">
+            <data key="label">deep neural networks (dnns)</data>
+            <data key="degree">0</data>
+            <data key="modularity_class">42</data>
+            <data key="weighted degree">0.0</data>
+            <data key="stat_inf_class">41</data>
+            <data key="size">40.0</data>
+            <data key="r">255</data>
+            <data key="g">132</data>
+            <data key="b">0</data>
+            <data key="x">-2084.6404</data>
+            <data key="y">710.4255</data>
+        </node>
+        <node id="62">
+            <data key="label">dementia</data>
+            <data key="degree">0</data>
+            <data key="modularity_class">43</data>
+            <data key="weighted degree">0.0</data>
+            <data key="stat_inf_class">42</data>
+            <data key="size">40.0</data>
+            <data key="r">0</data>
+            <data key="g">111</data>
+            <data key="b">29</data>
+            <data key="x">94.02269</data>
+            <data key="y">195.88771</data>
+        </node>
+        <node id="63">
+            <data key="label">dental education</data>
+            <data key="degree">0</data>
+            <data key="modularity_class">44</data>
+            <data key="weighted degree">0.0</data>
+            <data key="stat_inf_class">43</data>
+            <data key="size">40.0</data>
+            <data key="r">224</data>
+            <data key="g">64</data>
+            <data key="b">28</data>
+            <data key="x">-731.4964</data>
+            <data key="y">-85.96592</data>
+        </node>
+        <node id="64">
+            <data key="label">dentistry</data>
+            <data key="degree">0</data>
+            <data key="modularity_class">45</data>
+            <data key="weighted degree">0.0</data>
+            <data key="stat_inf_class">44</data>
+            <data key="size">40.0</data>
+            <data key="r">0</data>
+            <data key="g">242</data>
+            <data key="b">255</data>
+            <data key="x">-1401.4602</data>
+            <data key="y">755.373</data>
+        </node>
+        <node id="65">
+            <data key="label">digital technologies</data>
+            <data key="degree">0</data>
+            <data key="modularity_class">46</data>
+            <data key="weighted degree">0.0</data>
+            <data key="stat_inf_class">45</data>
+            <data key="size">40.0</data>
+            <data key="r">107</data>
+            <data key="g">122</data>
+            <data key="b">55</data>
+            <data key="x">1074.6409</data>
+            <data key="y">116.376236</data>
+        </node>
+        <node id="66">
+            <data key="label">digitalization</data>
+            <data key="degree">0</data>
+            <data key="modularity_class">47</data>
+            <data key="weighted degree">0.0</data>
+            <data key="stat_inf_class">46</data>
+            <data key="size">40.0</data>
+            <data key="r">152</data>
+            <data key="g">133</data>
+            <data key="b">0</data>
+            <data key="x">100.19975</data>
+            <data key="y">521.79285</data>
+        </node>
+        <node id="67">
+            <data key="label">disruptive technologies</data>
+            <data key="degree">0</data>
+            <data key="modularity_class">48</data>
+            <data key="weighted degree">0.0</data>
+            <data key="stat_inf_class">47</data>
+            <data key="size">40.0</data>
+            <data key="r">255</data>
+            <data key="g">175</data>
+            <data key="b">255</data>
+            <data key="x">760.7991</data>
+            <data key="y">-393.7249</data>
+        </node>
+        <node id="68">
+            <data key="label">drug discovery</data>
+            <data key="degree">0</data>
+            <data key="modularity_class">49</data>
+            <data key="weighted degree">0.0</data>
+            <data key="stat_inf_class">48</data>
+            <data key="size">40.0</data>
+            <data key="r">255</data>
+            <data key="g">178</data>
+            <data key="b">67</data>
+            <data key="x">-260.05215</data>
+            <data key="y">900.751</data>
+        </node>
+        <node id="69">
+            <data key="label">edtech industry</data>
+            <data key="degree">0</data>
+            <data key="modularity_class">50</data>
+            <data key="weighted degree">0.0</data>
+            <data key="stat_inf_class">49</data>
+            <data key="size">40.0</data>
+            <data key="r">223</data>
+            <data key="g">56</data>
+            <data key="b">137</data>
+            <data key="x">-1855.1821</data>
+            <data key="y">104.36191</data>
+        </node>
+        <node id="70">
+            <data key="label">emerging</data>
+            <data key="degree">0</data>
+            <data key="modularity_class">51</data>
+            <data key="weighted degree">0.0</data>
+            <data key="stat_inf_class">50</data>
+            <data key="size">40.0</data>
+            <data key="r">194</data>
+            <data key="g">220</data>
+            <data key="b">69</data>
+            <data key="x">-915.96985</data>
+            <data key="y">392.69174</data>
+        </node>
+        <node id="71">
+            <data key="label">emerging technology</data>
+            <data key="degree">0</data>
+            <data key="modularity_class">52</data>
+            <data key="weighted degree">0.0</data>
+            <data key="stat_inf_class">51</data>
+            <data key="size">40.0</data>
+            <data key="r">64</data>
+            <data key="g">38</data>
+            <data key="b">77</data>
+            <data key="x">547.585</data>
+            <data key="y">999.1857</data>
+        </node>
+        <node id="72">
+            <data key="label">emerging trends</data>
+            <data key="degree">0</data>
+            <data key="modularity_class">53</data>
+            <data key="weighted degree">0.0</data>
+            <data key="stat_inf_class">52</data>
+            <data key="size">40.0</data>
+            <data key="r">138</data>
+            <data key="g">42</data>
+            <data key="b">15</data>
+            <data key="x">-1063.9772</data>
+            <data key="y">-49.079723</data>
+        </node>
+        <node id="73">
+            <data key="label">emotion data</data>
+            <data key="degree">0</data>
+            <data key="modularity_class">54</data>
+            <data key="weighted degree">0.0</data>
+            <data key="stat_inf_class">53</data>
+            <data key="size">40.0</data>
+            <data key="r">99</data>
+            <data key="g">142</data>
+            <data key="b">216</data>
+            <data key="x">361.54517</data>
+            <data key="y">-720.7621</data>
+        </node>
+        <node id="74">
+            <data key="label">emotion recognition and classification</data>
+            <data key="degree">0</data>
+            <data key="modularity_class">55</data>
+            <data key="weighted degree">0.0</data>
+            <data key="stat_inf_class">54</data>
+            <data key="size">40.0</data>
+            <data key="r">248</data>
+            <data key="g">139</data>
+            <data key="b">153</data>
+            <data key="x">576.97363</data>
+            <data key="y">-450.30606</data>
+        </node>
+        <node id="75">
+            <data key="label">emotional speech</data>
+            <data key="degree">0</data>
+            <data key="modularity_class">56</data>
+            <data key="weighted degree">0.0</data>
+            <data key="stat_inf_class">55</data>
+            <data key="size">40.0</data>
+            <data key="r">0</data>
+            <data key="g">75</data>
+            <data key="b">80</data>
+            <data key="x">452.81653</data>
+            <data key="y">-562.48425</data>
+        </node>
+        <node id="76">
+            <data key="label">empathic concern</data>
+            <data key="degree">0</data>
+            <data key="modularity_class">57</data>
+            <data key="weighted degree">0.0</data>
+            <data key="stat_inf_class">56</data>
+            <data key="size">40.0</data>
+            <data key="r">255</data>
+            <data key="g">151</data>
+            <data key="b">194</data>
+            <data key="x">640.2154</data>
+            <data key="y">-63.571133</data>
+        </node>
+        <node id="77">
+            <data key="label">engineering education</data>
+            <data key="degree">0</data>
+            <data key="modularity_class">58</data>
+            <data key="weighted degree">0.0</data>
+            <data key="stat_inf_class">57</data>
+            <data key="size">40.0</data>
+            <data key="r">85</data>
+            <data key="g">52</data>
+            <data key="b">4</data>
+            <data key="x">903.9466</data>
+            <data key="y">-1367.5251</data>
+        </node>
+        <node id="78">
+            <data key="label">equitable learning environment</data>
+            <data key="degree">0</data>
+            <data key="modularity_class">59</data>
+            <data key="weighted degree">0.0</data>
+            <data key="stat_inf_class">58</data>
+            <data key="size">40.0</data>
+            <data key="r">0</data>
+            <data key="g">187</data>
+            <data key="b">200</data>
+            <data key="x">-2013.8368</data>
+            <data key="y">-95.40459</data>
+        </node>
+        <node id="79">
+            <data key="label">ethical</data>
+            <data key="degree">0</data>
+            <data key="modularity_class">60</data>
+            <data key="weighted degree">0.0</data>
+            <data key="stat_inf_class">59</data>
+            <data key="size">40.0</data>
+            <data key="r">0</data>
+            <data key="g">147</data>
+            <data key="b">255</data>
+            <data key="x">445.3508</data>
+            <data key="y">62.69011</data>
+        </node>
+        <node id="80">
+            <data key="label">ethical analysis</data>
+            <data key="degree">0</data>
+            <data key="modularity_class">61</data>
+            <data key="weighted degree">0.0</data>
+            <data key="stat_inf_class">60</data>
+            <data key="size">40.0</data>
+            <data key="r">0</data>
+            <data key="g">255</data>
+            <data key="b">88</data>
+            <data key="x">996.73285</data>
+            <data key="y">-642.3281</data>
+        </node>
+        <node id="81">
+            <data key="label">ethical reasoning</data>
+            <data key="degree">0</data>
+            <data key="modularity_class">62</data>
+            <data key="weighted degree">0.0</data>
+            <data key="stat_inf_class">61</data>
+            <data key="size">40.0</data>
+            <data key="r">196</data>
+            <data key="g">221</data>
+            <data key="b">184</data>
+            <data key="x">-217.29204</data>
+            <data key="y">528.5898</data>
+        </node>
+        <node id="82">
+            <data key="label">ethical values</data>
+            <data key="degree">0</data>
+            <data key="modularity_class">63</data>
+            <data key="weighted degree">0.0</data>
+            <data key="stat_inf_class">62</data>
+            <data key="size">40.0</data>
+            <data key="r">131</data>
+            <data key="g">26</data>
+            <data key="b">89</data>
+            <data key="x">789.1759</data>
+            <data key="y">52.368385</data>
+        </node>
+        <node id="83">
+            <data key="label">ethicisation</data>
+            <data key="degree">0</data>
+            <data key="modularity_class">64</data>
+            <data key="weighted degree">0.0</data>
+            <data key="stat_inf_class">63</data>
+            <data key="size">40.0</data>
+            <data key="r">205</data>
+            <data key="g">111</data>
+            <data key="b">169</data>
+            <data key="x">1034.6161</data>
+            <data key="y">382.08725</data>
+        </node>
+        <node id="84">
+            <data key="label">ethics expertise</data>
+            <data key="degree">0</data>
+            <data key="modularity_class">65</data>
+            <data key="weighted degree">0.0</data>
+            <data key="stat_inf_class">64</data>
+            <data key="size">40.0</data>
+            <data key="r">255</data>
+            <data key="g">158</data>
+            <data key="b">58</data>
+            <data key="x">-935.7735</data>
+            <data key="y">-731.98175</data>
+        </node>
+        <node id="85">
+            <data key="label">ethics guidelines</data>
+            <data key="degree">0</data>
+            <data key="modularity_class">66</data>
+            <data key="weighted degree">0.0</data>
+            <data key="stat_inf_class">65</data>
+            <data key="size">40.0</data>
+            <data key="r">124</data>
+            <data key="g">107</data>
+            <data key="b">81</data>
+            <data key="x">302.738</data>
+            <data key="y">-44.088966</data>
+        </node>
+        <node id="86">
+            <data key="label">ethics of ai</data>
+            <data key="degree">0</data>
+            <data key="modularity_class">67</data>
+            <data key="weighted degree">0.0</data>
+            <data key="stat_inf_class">66</data>
+            <data key="size">40.0</data>
+            <data key="r">166</data>
+            <data key="g">205</data>
+            <data key="b">255</data>
+            <data key="x">-603.398</data>
+            <data key="y">-201.56194</data>
+        </node>
+        <node id="87">
+            <data key="label">ethics of emerging technologies</data>
+            <data key="degree">0</data>
+            <data key="modularity_class">68</data>
+            <data key="weighted degree">0.0</data>
+            <data key="stat_inf_class">67</data>
+            <data key="size">40.0</data>
+            <data key="r">59</data>
+            <data key="g">77</data>
+            <data key="b">0</data>
+            <data key="x">134.77075</data>
+            <data key="y">673.92267</data>
+        </node>
+        <node id="88">
+            <data key="label">ethics tech</data>
+            <data key="degree">0</data>
+            <data key="modularity_class">69</data>
+            <data key="weighted degree">0.0</data>
+            <data key="stat_inf_class">68</data>
+            <data key="size">40.0</data>
+            <data key="r">0</data>
+            <data key="g">254</data>
+            <data key="b">192</data>
+            <data key="x">621.9795</data>
+            <data key="y">103.27689</data>
+        </node>
+        <node id="89">
+            <data key="label">european commission</data>
+            <data key="degree">0</data>
+            <data key="modularity_class">70</data>
+            <data key="weighted degree">0.0</data>
+            <data key="stat_inf_class">69</data>
+            <data key="size">40.0</data>
+            <data key="r">0</data>
+            <data key="g">171</data>
+            <data key="b">255</data>
+            <data key="x">-667.9339</data>
+            <data key="y">642.1408</data>
+        </node>
+        <node id="90">
+            <data key="label">european union</data>
+            <data key="degree">0</data>
+            <data key="modularity_class">71</data>
+            <data key="weighted degree">0.0</data>
+            <data key="stat_inf_class">70</data>
+            <data key="size">40.0</data>
+            <data key="r">255</data>
+            <data key="g">195</data>
+            <data key="b">112</data>
+            <data key="x">-633.26086</data>
+            <data key="y">-1353.2767</data>
+        </node>
+        <node id="91">
+            <data key="label">experimentation</data>
+            <data key="degree">0</data>
+            <data key="modularity_class">72</data>
+            <data key="weighted degree">0.0</data>
+            <data key="stat_inf_class">71</data>
+            <data key="size">40.0</data>
+            <data key="r">113</data>
+            <data key="g">228</data>
+            <data key="b">200</data>
+            <data key="x">-653.9002</data>
+            <data key="y">-378.87912</data>
+        </node>
+        <node id="92">
+            <data key="label">extended reality</data>
+            <data key="degree">0</data>
+            <data key="modularity_class">73</data>
+            <data key="weighted degree">0.0</data>
+            <data key="stat_inf_class">72</data>
+            <data key="size">40.0</data>
+            <data key="r">229</data>
+            <data key="g">94</data>
+            <data key="b">248</data>
+            <data key="x">-139.845</data>
+            <data key="y">-392.49728</data>
+        </node>
+        <node id="93">
+            <data key="label">facial sentiment analysis</data>
+            <data key="degree">0</data>
+            <data key="modularity_class">74</data>
+            <data key="weighted degree">0.0</data>
+            <data key="stat_inf_class">73</data>
+            <data key="size">40.0</data>
+            <data key="r">227</data>
+            <data key="g">95</data>
+            <data key="b">0</data>
+            <data key="x">735.0702</data>
+            <data key="y">1423.6443</data>
+        </node>
+        <node id="94">
+            <data key="label">feedback</data>
+            <data key="degree">0</data>
+            <data key="modularity_class">75</data>
+            <data key="weighted degree">0.0</data>
+            <data key="stat_inf_class">74</data>
+            <data key="size">40.0</data>
+            <data key="r">227</data>
+            <data key="g">57</data>
+            <data key="b">77</data>
+            <data key="x">-551.27075</data>
+            <data key="y">-715.3169</data>
+        </node>
+        <node id="95">
+            <data key="label">foresight analysis</data>
+            <data key="degree">0</data>
+            <data key="modularity_class">76</data>
+            <data key="weighted degree">0.0</data>
+            <data key="stat_inf_class">75</data>
+            <data key="size">40.0</data>
+            <data key="r">255</data>
+            <data key="g">114</data>
+            <data key="b">255</data>
+            <data key="x">1481.6993</data>
+            <data key="y">-872.6737</data>
+        </node>
+        <node id="96">
+            <data key="label">fourth generation</data>
+            <data key="degree">0</data>
+            <data key="modularity_class">77</data>
+            <data key="weighted degree">0.0</data>
+            <data key="stat_inf_class">76</data>
+            <data key="size">40.0</data>
+            <data key="r">0</data>
+            <data key="g">233</data>
+            <data key="b">255</data>
+            <data key="x">416.0126</data>
+            <data key="y">523.03485</data>
+        </node>
+        <node id="97">
+            <data key="label">fourth industrial revolution</data>
+            <data key="degree">0</data>
+            <data key="modularity_class">78</data>
+            <data key="weighted degree">0.0</data>
+            <data key="stat_inf_class">77</data>
+            <data key="size">40.0</data>
+            <data key="r">0</data>
+            <data key="g">174</data>
+            <data key="b">242</data>
+            <data key="x">-1124.3611</data>
+            <data key="y">941.1156</data>
+        </node>
+        <node id="98">
+            <data key="label">gene editing</data>
+            <data key="degree">0</data>
+            <data key="modularity_class">79</data>
+            <data key="weighted degree">0.0</data>
+            <data key="stat_inf_class">78</data>
+            <data key="size">40.0</data>
+            <data key="r">255</data>
+            <data key="g">130</data>
+            <data key="b">148</data>
+            <data key="x">1375.7837</data>
+            <data key="y">772.55756</data>
+        </node>
+        <node id="99">
+            <data key="label">generative ai</data>
+            <data key="degree">0</data>
+            <data key="modularity_class">80</data>
+            <data key="weighted degree">0.0</data>
+            <data key="stat_inf_class">79</data>
+            <data key="size">40.0</data>
+            <data key="r">0</data>
+            <data key="g">184</data>
+            <data key="b">205</data>
+            <data key="x">14.265403</data>
+            <data key="y">774.256</data>
+        </node>
+        <node id="100">
+            <data key="label">generative ai systems</data>
+            <data key="degree">0</data>
+            <data key="modularity_class">81</data>
+            <data key="weighted degree">0.0</data>
+            <data key="stat_inf_class">80</data>
+            <data key="size">40.0</data>
+            <data key="r">51</data>
+            <data key="g">156</data>
+            <data key="b">0</data>
+            <data key="x">814.78424</data>
+            <data key="y">-119.090675</data>
+        </node>
+        <node id="101">
+            <data key="label">global catastrophe</data>
+            <data key="degree">0</data>
+            <data key="modularity_class">82</data>
+            <data key="weighted degree">0.0</data>
+            <data key="stat_inf_class">81</data>
+            <data key="size">40.0</data>
+            <data key="r">0</data>
+            <data key="g">185</data>
+            <data key="b">162</data>
+            <data key="x">-137.34355</data>
+            <data key="y">1044.0521</data>
+        </node>
+        <node id="102">
+            <data key="label">global ethics</data>
+            <data key="degree">0</data>
+            <data key="modularity_class">83</data>
+            <data key="weighted degree">0.0</data>
+            <data key="stat_inf_class">82</data>
+            <data key="size">40.0</data>
+            <data key="r">255</data>
+            <data key="g">0</data>
+            <data key="b">127</data>
+            <data key="x">969.3121</data>
+            <data key="y">793.6795</data>
+        </node>
+        <node id="105">
+            <data key="label">guidelines</data>
+            <data key="degree">0</data>
+            <data key="modularity_class">84</data>
+            <data key="weighted degree">0.0</data>
+            <data key="stat_inf_class">83</data>
+            <data key="size">40.0</data>
+            <data key="r">255</data>
+            <data key="g">149</data>
+            <data key="b">255</data>
+            <data key="x">-344.40085</data>
+            <data key="y">-831.31976</data>
+        </node>
+        <node id="106">
+            <data key="label">higher education</data>
+            <data key="degree">0</data>
+            <data key="modularity_class">85</data>
+            <data key="weighted degree">0.0</data>
+            <data key="stat_inf_class">84</data>
+            <data key="size">40.0</data>
+            <data key="r">181</data>
+            <data key="g">209</data>
+            <data key="b">255</data>
+            <data key="x">258.2008</data>
+            <data key="y">-512.77673</data>
+        </node>
+        <node id="107">
+            <data key="label">holistic care</data>
+            <data key="degree">0</data>
+            <data key="modularity_class">86</data>
+            <data key="weighted degree">0.0</data>
+            <data key="stat_inf_class">85</data>
+            <data key="size">40.0</data>
+            <data key="r">144</data>
+            <data key="g">83</data>
+            <data key="b">94</data>
+            <data key="x">-45.612457</data>
+            <data key="y">1341.1404</data>
+        </node>
+        <node id="108">
+            <data key="label">human</data>
+            <data key="degree">0</data>
+            <data key="modularity_class">87</data>
+            <data key="weighted degree">0.0</data>
+            <data key="stat_inf_class">86</data>
+            <data key="size">40.0</data>
+            <data key="r">83</data>
+            <data key="g">221</data>
+            <data key="b">255</data>
+            <data key="x">-277.36835</data>
+            <data key="y">-460.94446</data>
+        </node>
+        <node id="109">
+            <data key="label">human-robot interaction</data>
+            <data key="degree">0</data>
+            <data key="modularity_class">88</data>
+            <data key="weighted degree">0.0</data>
+            <data key="stat_inf_class">87</data>
+            <data key="size">40.0</data>
+            <data key="r">211</data>
+            <data key="g">134</data>
+            <data key="b">0</data>
+            <data key="x">-639.11066</data>
+            <data key="y">100.3471</data>
+        </node>
+        <node id="110">
+            <data key="label">human research</data>
+            <data key="degree">0</data>
+            <data key="modularity_class">89</data>
+            <data key="weighted degree">0.0</data>
+            <data key="stat_inf_class">88</data>
+            <data key="size">40.0</data>
+            <data key="r">99</data>
+            <data key="g">170</data>
+            <data key="b">90</data>
+            <data key="x">-1488.9624</data>
+            <data key="y">183.90111</data>
+        </node>
+        <node id="111">
+            <data key="label">illusory</data>
+            <data key="degree">0</data>
+            <data key="modularity_class">90</data>
+            <data key="weighted degree">0.0</data>
+            <data key="stat_inf_class">89</data>
+            <data key="size">40.0</data>
+            <data key="r">255</data>
+            <data key="g">81</data>
+            <data key="b">92</data>
+            <data key="x">-291.5341</data>
+            <data key="y">339.91058</data>
+        </node>
+        <node id="112">
+            <data key="label">impact</data>
+            <data key="degree">0</data>
+            <data key="modularity_class">91</data>
+            <data key="weighted degree">0.0</data>
+            <data key="stat_inf_class">90</data>
+            <data key="size">40.0</data>
+            <data key="r">232</data>
+            <data key="g">213</data>
+            <data key="b">223</data>
+            <data key="x">-267.327</data>
+            <data key="y">-292.4593</data>
+        </node>
+        <node id="113">
+            <data key="label">in-vehicle ai assistant</data>
+            <data key="degree">0</data>
+            <data key="modularity_class">92</data>
+            <data key="weighted degree">0.0</data>
+            <data key="stat_inf_class">91</data>
+            <data key="size">40.0</data>
+            <data key="r">127</data>
+            <data key="g">101</data>
+            <data key="b">0</data>
+            <data key="x">-926.2216</data>
+            <data key="y">67.08036</data>
+        </node>
+        <node id="114">
+            <data key="label">inclusive education</data>
+            <data key="degree">0</data>
+            <data key="modularity_class">93</data>
+            <data key="weighted degree">0.0</data>
+            <data key="stat_inf_class">92</data>
+            <data key="size">40.0</data>
+            <data key="r">0</data>
+            <data key="g">119</data>
+            <data key="b">153</data>
+            <data key="x">-84.17728</data>
+            <data key="y">-562.856</data>
+        </node>
+        <node id="115">
+            <data key="label">informatics</data>
+            <data key="degree">0</data>
+            <data key="modularity_class">94</data>
+            <data key="weighted degree">0.0</data>
+            <data key="stat_inf_class">93</data>
+            <data key="size">40.0</data>
+            <data key="r">255</data>
+            <data key="g">111</data>
+            <data key="b">63</data>
+            <data key="x">-656.2249</data>
+            <data key="y">458.5783</data>
+        </node>
+        <node id="116">
+            <data key="label">information management systems</data>
+            <data key="degree">0</data>
+            <data key="modularity_class">95</data>
+            <data key="weighted degree">0.0</data>
+            <data key="stat_inf_class">94</data>
+            <data key="size">40.0</data>
+            <data key="r">255</data>
+            <data key="g">170</data>
+            <data key="b">144</data>
+            <data key="x">2327.706</data>
+            <data key="y">280.59616</data>
+        </node>
+        <node id="117">
+            <data key="label">infrastructure</data>
+            <data key="degree">0</data>
+            <data key="modularity_class">96</data>
+            <data key="weighted degree">0.0</data>
+            <data key="stat_inf_class">95</data>
+            <data key="size">40.0</data>
+            <data key="r">69</data>
+            <data key="g">109</data>
+            <data key="b">131</data>
+            <data key="x">670.79285</data>
+            <data key="y">-963.6904</data>
+        </node>
+        <node id="118">
+            <data key="label">infrastructures</data>
+            <data key="degree">0</data>
+            <data key="modularity_class">97</data>
+            <data key="weighted degree">0.0</data>
+            <data key="stat_inf_class">96</data>
+            <data key="size">40.0</data>
+            <data key="r">72</data>
+            <data key="g">109</data>
+            <data key="b">215</data>
+            <data key="x">90.90758</data>
+            <data key="y">-1166.2721</data>
+        </node>
+        <node id="119">
+            <data key="label">innovation</data>
+            <data key="degree">0</data>
+            <data key="modularity_class">98</data>
+            <data key="weighted degree">0.0</data>
+            <data key="stat_inf_class">97</data>
+            <data key="size">40.0</data>
+            <data key="r">0</data>
+            <data key="g">136</data>
+            <data key="b">139</data>
+            <data key="x">197.23015</data>
+            <data key="y">-341.31345</data>
+        </node>
+        <node id="120">
+            <data key="label">institutionalization</data>
+            <data key="degree">0</data>
+            <data key="modularity_class">99</data>
+            <data key="weighted degree">0.0</data>
+            <data key="stat_inf_class">98</data>
+            <data key="size">40.0</data>
+            <data key="r">217</data>
+            <data key="g">168</data>
+            <data key="b">229</data>
+            <data key="x">2217.787</data>
+            <data key="y">-441.32123</data>
+        </node>
+        <node id="141">
+            <data key="label">autonomous vehicles (avs)</data>
+            <data key="degree">0</data>
+            <data key="modularity_class">100</data>
+            <data key="weighted degree">0.0</data>
+            <data key="stat_inf_class">99</data>
+            <data key="size">40.0</data>
+            <data key="r">112</data>
+            <data key="g">232</data>
+            <data key="b">0</data>
+            <data key="x">-65.263084</data>
+            <data key="y">634.0247</data>
+        </node>
+        <node id="122">
+            <data key="label">intelligent agents</data>
+            <data key="degree">0</data>
+            <data key="modularity_class">101</data>
+            <data key="weighted degree">0.0</data>
+            <data key="stat_inf_class">100</data>
+            <data key="size">40.0</data>
+            <data key="r">162</data>
+            <data key="g">103</data>
+            <data key="b">212</data>
+            <data key="x">-205.30446</data>
+            <data key="y">-1414.981</data>
+        </node>
+        <node id="123">
+            <data key="label">internet of medical things</data>
+            <data key="degree">0</data>
+            <data key="modularity_class">102</data>
+            <data key="weighted degree">0.0</data>
+            <data key="stat_inf_class">101</data>
+            <data key="size">40.0</data>
+            <data key="r">0</data>
+            <data key="g">134</data>
+            <data key="b">210</data>
+            <data key="x">1374.9857</data>
+            <data key="y">-1156.4916</data>
+        </node>
+        <node id="124">
+            <data key="label">internet of things (iot)</data>
+            <data key="degree">0</data>
+            <data key="modularity_class">103</data>
+            <data key="weighted degree">0.0</data>
+            <data key="stat_inf_class">102</data>
+            <data key="size">40.0</data>
+            <data key="r">129</data>
+            <data key="g">159</data>
+            <data key="b">0</data>
+            <data key="x">2.25129</data>
+            <data key="y">-843.72003</data>
+        </node>
+        <node id="144">
+            <data key="label">governance</data>
+            <data key="degree">0</data>
+            <data key="modularity_class">104</data>
+            <data key="weighted degree">0.0</data>
+            <data key="stat_inf_class">103</data>
+            <data key="size">40.0</data>
+            <data key="r">190</data>
+            <data key="g">119</data>
+            <data key="b">48</data>
+            <data key="x">-888.4493</data>
+            <data key="y">-1297.2336</data>
+        </node>
+        <node id="126">
+            <data key="label">learning</data>
+            <data key="degree">0</data>
+            <data key="modularity_class">105</data>
+            <data key="weighted degree">0.0</data>
+            <data key="stat_inf_class">104</data>
+            <data key="size">40.0</data>
+            <data key="r">80</data>
+            <data key="g">203</data>
+            <data key="b">81</data>
+            <data key="x">209.9557</data>
+            <data key="y">1298.3757</data>
+        </node>
+        <node id="127">
+            <data key="label">learning analytics</data>
+            <data key="degree">0</data>
+            <data key="modularity_class">106</data>
+            <data key="weighted degree">0.0</data>
+            <data key="stat_inf_class">105</data>
+            <data key="size">40.0</data>
+            <data key="r">0</data>
+            <data key="g">236</data>
+            <data key="b">255</data>
+            <data key="x">3.7650948</data>
+            <data key="y">-689.878</data>
+        </node>
+        <node id="128">
+            <data key="label">legal and social implications</data>
+            <data key="degree">0</data>
+            <data key="modularity_class">107</data>
+            <data key="weighted degree">0.0</data>
+            <data key="stat_inf_class">106</data>
+            <data key="size">40.0</data>
+            <data key="r">38</data>
+            <data key="g">64</data>
+            <data key="b">54</data>
+            <data key="x">623.92975</data>
+            <data key="y">480.18967</data>
+        </node>
+        <node id="129">
+            <data key="label">legal ecosystem</data>
+            <data key="degree">0</data>
+            <data key="modularity_class">108</data>
+            <data key="weighted degree">0.0</data>
+            <data key="stat_inf_class">107</data>
+            <data key="size">40.0</data>
+            <data key="r">44</data>
+            <data key="g">71</data>
+            <data key="b">136</data>
+            <data key="x">553.5328</data>
+            <data key="y">-282.84293</data>
+        </node>
+        <node id="131">
+            <data key="label">medical practice</data>
+            <data key="degree">0</data>
+            <data key="modularity_class">109</data>
+            <data key="weighted degree">0.0</data>
+            <data key="stat_inf_class">108</data>
+            <data key="size">40.0</data>
+            <data key="r">96</data>
+            <data key="g">168</data>
+            <data key="b">183</data>
+            <data key="x">-389.8153</data>
+            <data key="y">486.9447</data>
+        </node>
+        <node id="132">
+            <data key="label">memristor</data>
+            <data key="degree">0</data>
+            <data key="modularity_class">110</data>
+            <data key="weighted degree">0.0</data>
+            <data key="stat_inf_class">109</data>
+            <data key="size">40.0</data>
+            <data key="r">194</data>
+            <data key="g">158</data>
+            <data key="b">144</data>
+            <data key="x">286.4167</data>
+            <data key="y">-1253.3916</data>
+        </node>
+        <node id="133">
+            <data key="label">mentorship</data>
+            <data key="degree">0</data>
+            <data key="modularity_class">111</data>
+            <data key="weighted degree">0.0</data>
+            <data key="stat_inf_class">110</data>
+            <data key="size">40.0</data>
+            <data key="r">0</data>
+            <data key="g">204</data>
+            <data key="b">106</data>
+            <data key="x">449.4785</data>
+            <data key="y">-1128.3458</data>
+        </node>
+        <node id="134">
+            <data key="label">modernization</data>
+            <data key="degree">0</data>
+            <data key="modularity_class">112</data>
+            <data key="weighted degree">0.0</data>
+            <data key="stat_inf_class">111</data>
+            <data key="size">40.0</data>
+            <data key="r">0</data>
+            <data key="g">243</data>
+            <data key="b">248</data>
+            <data key="x">1288.7867</data>
+            <data key="y">1200.4994</data>
+        </node>
+        <node id="135">
+            <data key="label">multidisciplinary approach</data>
+            <data key="degree">0</data>
+            <data key="modularity_class">113</data>
+            <data key="weighted degree">0.0</data>
+            <data key="stat_inf_class">112</data>
+            <data key="size">40.0</data>
+            <data key="r">0</data>
+            <data key="g">205</data>
+            <data key="b">138</data>
+            <data key="x">1781.3727</data>
+            <data key="y">989.1468</data>
+        </node>
+        <node id="136">
+            <data key="label">nanotechnology</data>
+            <data key="degree">0</data>
+            <data key="modularity_class">114</data>
+            <data key="weighted degree">0.0</data>
+            <data key="stat_inf_class">113</data>
+            <data key="size">40.0</data>
+            <data key="r">0</data>
+            <data key="g">199</data>
+            <data key="b">0</data>
+            <data key="x">48.165623</data>
+            <data key="y">350.41687</data>
+        </node>
+        <node id="137">
+            <data key="label">natural language processing (nlp)</data>
+            <data key="degree">0</data>
+            <data key="modularity_class">115</data>
+            <data key="weighted degree">0.0</data>
+            <data key="stat_inf_class">114</data>
+            <data key="size">40.0</data>
+            <data key="r">0</data>
+            <data key="g">192</data>
+            <data key="b">255</data>
+            <data key="x">1912.1792</data>
+            <data key="y">443.5517</data>
+        </node>
+        <node id="138">
+            <data key="label">networks</data>
+            <data key="degree">0</data>
+            <data key="modularity_class">116</data>
+            <data key="weighted degree">0.0</data>
+            <data key="stat_inf_class">115</data>
+            <data key="size">40.0</data>
+            <data key="r">230</data>
+            <data key="g">174</data>
+            <data key="b">255</data>
+            <data key="x">-789.1636</data>
+            <data key="y">-241.23563</data>
+        </node>
+        <node id="139">
+            <data key="label">neuromorphic computation</data>
+            <data key="degree">0</data>
+            <data key="modularity_class">117</data>
+            <data key="weighted degree">0.0</data>
+            <data key="stat_inf_class">116</data>
+            <data key="size">40.0</data>
+            <data key="r">124</data>
+            <data key="g">94</data>
+            <data key="b">134</data>
+            <data key="x">866.975</data>
+            <data key="y">1048.9594</data>
+        </node>
+        <node id="140">
+            <data key="label">artificial intelligence</data>
+            <data key="degree">11</data>
+            <data key="modularity_class">5</data>
+            <data key="weighted degree">11.0</data>
+            <data key="stat_inf_class">5</data>
+            <data key="size">120.0</data>
+            <data key="r">162</data>
+            <data key="g">150</data>
+            <data key="b">179</data>
+            <data key="x">-26.443008</data>
+            <data key="y">-114.117386</data>
+        </node>
+        <edge id="45" source="140" target="143">
+            <data key="weight">1.0</data>
+        </edge>
+        <edge id="46" source="2" target="143">
+            <data key="weight">1.0</data>
+        </edge>
+        <edge id="26" source="2" target="3">
+            <data key="weight">1.0</data>
+        </edge>
+        <edge id="30" source="2" target="17">
+            <data key="weight">1.0</data>
+        </edge>
+        <edge id="34" source="10" target="19">
+            <data key="weight">1.0</data>
+        </edge>
+        <edge id="35" source="140" target="140">
+            <data key="weight">1.0</data>
+        </edge>
+        <edge id="36" source="140" target="19">
+            <data key="weight">1.0</data>
+        </edge>
+        <edge id="37" source="140" target="17">
+            <data key="weight">1.0</data>
+        </edge>
+        <edge id="38" source="140" target="14">
+            <data key="weight">1.0</data>
+        </edge>
+        <edge id="39" source="140" target="13">
+            <data key="weight">1.0</data>
+        </edge>
+        <edge id="40" source="140" target="10">
+            <data key="weight">1.0</data>
+        </edge>
+        <edge id="41" source="140" target="9">
+            <data key="weight">1.0</data>
+        </edge>
+        <edge id="43" source="140" target="3">
+            <data key="weight">1.0</data>
+        </edge>
+        <edge id="44" source="140" target="2">
+            <data key="weight">1.0</data>
+        </edge>
+    </graph>
+</graphml>
