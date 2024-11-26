@@ -6,6 +6,7 @@
 \usepackage{svg}
 \usepackage{pdflscape}
 \usepackage{listings}
+\usepackage{comment}
 
 % Configuración básica
 \lstset{
@@ -17,18 +18,31 @@
   columns=flexible % Ajusta el espaciado entre caracteres
 }
 
-\usepackage{biblatex}
-%\addbibresource{report.bib}
+% IEEE con orden alfabético 
+%\usepackage[style=ieee, sorting=nyt, backend=biber]{biblatex}
+% IEEE con orden por número de aparición (nyt: name-year-title) 
+\usepackage[style=ieee, sorting=none, backend=biber]{biblatex}
+% archivos con referencias para cada capitulo
 \addbibresource{references/chapter-1.bib}
-%\addbibresource{chapter-2.bib}
-%\addbibresource{chapter-3.bib}
-%\addbibresource{chapter-4.bib}
-%\addbibresource{chapter-5.bib}
-%\addbibresource{chapter-6.bib}
-%\addbibresource{chapter-7.bib}
-%\addbibresource{chapter-8.bib}
-%\addbibresource{chapter-9.bib}
-%\addbibresource{chapter-10.bib}
+\addbibresource{references/chapter-2.bib}
+\addbibresource{references/chapter-3.bib}
+\addbibresource{references/chapter-4.bib}
+\addbibresource{references/chapter-5.bib}
+\addbibresource{references/chapter-6.bib}
+\addbibresource{references/chapter-7.bib}
+\addbibresource{references/chapter-8.bib}
+\addbibresource{references/chapter-9.bib}
+\addbibresource{references/chapter-10.bib}
+\addbibresource{references/chapter-11.bib}
+\addbibresource{references/chapter-12.bib}
+\addbibresource{references/chapter-13.bib}
+\addbibresource{references/chapter-14.bib}
+\addbibresource{references/chapter-15.bib}
+\addbibresource{references/chapter-16.bib}
+\addbibresource{references/chapter-17.bib}
+\addbibresource{references/chapter-18.bib}
+\addbibresource{references/chapter-19.bib}
+\addbibresource{references/chapter-20.bib}
 
 %% Paquetes adicionales y comandos
 \usepackage{graphicx}
@@ -74,19 +88,26 @@
 
 % Introducción en español
 
-\input{mainmatter/chapter-1/introduction} 
-% Imprimir la bibliografía del capítulo 1
-
-%\input{mainmatter/chapter-2/chapter-2}
-%\input{mainmatter/chapter-2/chapter-3}
-%\input{mainmatter/chapter-2/chapter-4}
-%\input{mainmatter/chapter-2/chapter-5}
-%\input{mainmatter/chapter-2/chapter-6}
-%\input{mainmatter/chapter-2/chapter-7}
-%\input{mainmatter/chapter-2/chapter-8}
-%\input{mainmatter/chapter-2/chapter-9}
-%\input{mainmatter/chapter-2/chapter-10}
-
+\input{mainmatter/chapter-1/introduction}
+\input{mainmatter/chapter-2/chapter-2}
+\input{mainmatter/chapter-3/chapter-3}
+\input{mainmatter/chapter-4/chapter-4}
+\input{mainmatter/chapter-5/chapter-5}
+\input{mainmatter/chapter-6/chapter-6}
+\input{mainmatter/chapter-7/chapter-7}
+\input{mainmatter/chapter-8/chapter-8}
+\input{mainmatter/chapter-9/chapter-9}
+\input{mainmatter/chapter-10/chapter-10}
+\input{mainmatter/chapter-11/chapter-11}
+\input{mainmatter/chapter-12/chapter-12}
+\input{mainmatter/chapter-13/chapter-13}
+\input{mainmatter/chapter-14/chapter-14}
+\input{mainmatter/chapter-15/chapter-15}
+\input{mainmatter/chapter-16/chapter-16}
+\input{mainmatter/chapter-17/chapter-17}
+\input{mainmatter/chapter-18/chapter-18}
+\input{mainmatter/chapter-19/chapter-19}
+\input{mainmatter/chapter-20/conclusion}
 
 %\input{mainmatter/conclusion}
 
@@ -95,7 +116,7 @@
 \setcounter{biburllcpenalty}{7000}
 \setcounter{biburlucpenalty}{7000}
 
-%% Agregar bibliografía
+%% Agregar una bibliografía general a lo ultimo si necesario
 %\printbibliography[heading=bibintoc,title=Referencias]
 
 %% ----------------------------------------------------------------------

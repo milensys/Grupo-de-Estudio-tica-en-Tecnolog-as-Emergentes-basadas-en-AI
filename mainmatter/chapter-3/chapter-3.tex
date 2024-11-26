@@ -1,0 +1,191 @@
+\begin{refsection}[references/chapter-3.bib]
+\chapter{Explicabilidad e Interpretabilidad de la Inteligencia Artificial}
+\label{chapter:chapter-3}
+
+\section{Introducción}
+La explicabilidad e interpretabilidad son esenciales para garantizar que los sistemas de inteligencia artificial sean transparentes, éticos y confiables. Estas características permiten a los desarrolladores y usuarios finales comprender cómo los modelos toman decisiones, lo que es particularmente crítico en aplicaciones de alto impacto como medicina, finanzas y sistemas judiciales.
+
+\section{Importancia de la Explicabilidad e Interpretabilidad}
+Los beneficios clave incluyen:
+\begin{itemize}
+    \item \textbf{Transparencia:} Brinda una visión clara de los procesos internos del modelo.
+    \item \textbf{Responsabilidad:} Permite auditar modelos para cumplir con estándares éticos y legales.
+    \item \textbf{Confianza:} Mejora la aceptación del usuario mediante explicaciones claras.
+    \item \textbf{Mitigación de sesgos:} Identifica y corrige prejuicios inherentes en los datos y modelos.
+\end{itemize}
+
+\section{Técnicas de Explicabilidad e Interpretabilidad}
+
+A continuación, se describen algunas técnicas, organizadas según su enfoque y naturaleza.
+
+\subsection{Técnicas Basadas en Atribución de Características}
+\begin{itemize}
+    \item \textbf{SHAP (SHapley Additive exPlanations):} Utiliza valores de Shapley para determinar la importancia de cada característica.
+    \item \textbf{LIME (Local Interpretable Model-agnostic Explanations):} Genera explicaciones locales a través de aproximaciones lineales.
+    \item \textbf{Integrated Gradients:} Calcula la importancia de las características a lo largo de una trayectoria definida entre un punto base y la entrada.
+    \item \textbf{Expected Gradients:} Amplía Integrated Gradients considerando distribuciones de entrada para calcular explicaciones.
+\end{itemize}
+
+\subsection{Técnicas Visuales}
+\begin{itemize}
+    \item \textbf{Grad-CAM:} Resalta áreas clave en imágenes que influyen en las decisiones del modelo.
+    \item \textbf{Saliency Maps:} Identifica áreas de entrada que tienen mayor impacto en la predicción.
+    \item \textbf{SmoothGrad:} Mejora mapas de saliencia reduciendo ruido al promediar múltiples perturbaciones.
+    \item \textbf{Layer-wise Relevance Propagation (LRP):} Asigna relevancia a características de entrada en redes neuronales.
+\end{itemize}
+
+\subsection{Técnicas Basadas en Regla y Prototipos}
+\begin{itemize}
+    \item \textbf{Rule-based Explanations:} Genera reglas interpretables que describen el comportamiento del modelo.
+    \item \textbf{Prototype-based Explanations:} Muestra ejemplos representativos para ilustrar cómo clasifica el modelo.
+    \item \textbf{Anchors:} Proporciona reglas condicionales que garantizan una alta fidelidad para predicciones locales.
+\end{itemize}
+
+\subsection{Técnicas Agnósticas al Modelo}
+\begin{itemize}
+    \item \textbf{Surrogate Models:} Entrena modelos simples, como árboles de decisión, para aproximar el comportamiento de modelos complejos.
+    \item \textbf{Partial Dependence Plots:} Visualiza la relación entre las características y las predicciones.
+    \item \textbf{Accumulated Local Effects (ALE):} Alternativa a PDP para manejar colinealidades entre características.
+    \item \textbf{Permutation Feature Importance:} Mide la relevancia de características al evaluar cambios en el rendimiento al permutarlas.
+\end{itemize}
+
+\subsection{Técnicas Basadas en Contrafactuales}
+\begin{itemize}
+    \item \textbf{Counterfactual Explanations:} Identifica los cambios mínimos necesarios en las entradas para alterar la decisión del modelo.
+    \item \textbf{Algorithmic Recourse:} Propone acciones concretas y viables para obtener resultados deseados.
+\end{itemize}
+
+\subsection{Técnicas Emergentes para Modelos Generativos}
+
+\begin{itemize}
+    \item \textbf{Concept Activation Vectors (CAVs):} Analiza conceptos semánticos en capas intermedias de modelos neuronales.
+    \item \textbf{GAN Dissection:} Identifica factores latentes responsables de generar atributos específicos en modelos generativos.
+\end{itemize}
+
+\subsection{Técnicas para Datos Temporales}
+
+Los modelos que operan sobre series temporales presentan desafíos únicos en términos de explicabilidad:
+\begin{itemize}
+    \item \textbf{Temporal Importance Curves:} Identifican qué puntos temporales contribuyen más a las predicciones.
+    \item \textbf{Attention Rollout:} Aplica mecanismos de atención acumulativa para visualizar qué partes de la secuencia fueron más relevantes.
+    \item \textbf{Feature-Wise Temporal Explanations:} Asocia características específicas con momentos temporales clave en la predicción.
+\end{itemize}
+
+
+
+\section{Fortalezas y Limitaciones de las Técnicas}
+
+Cada técnica tiene aplicaciones y limitaciones específicas:
+\begin{itemize}
+    \item \textbf{SHAP:} Amplia aplicabilidad, pero computacionalmente costosa.
+    \item \textbf{LIME:} Sencilla y rápida, pero sensible al ruido.
+    \item \textbf{Grad-CAM:} Excelente para imágenes, pero no aplicable a datos tabulares.
+    \item \textbf{Counterfactuals:} Intuitiva, pero puede ser difícil de implementar en modelos complejos.
+\end{itemize}
+
+
+\section{Evaluación de las Explicaciones}
+Evaluar la calidad de las explicaciones es crucial para garantizar que sean útiles y efectivas. Algunas métricas y enfoques comunes incluyen:
+\begin{itemize}
+    \item \textbf{Fidelidad:} Medida de cuán bien las explicaciones reflejan el comportamiento real del modelo.
+    \item \textbf{Comprensibilidad:} Grado en que las explicaciones son fáciles de entender por los usuarios finales.
+    \item \textbf{Estabilidad:} Consistencia de las explicaciones cuando se aplican ligeras variaciones a los datos de entrada.
+    \item \textbf{Relevancia:} Cuán útiles son las explicaciones para la toma de decisiones en contextos específicos.
+    \item \textbf{Parcialidad:} Identificación de posibles sesgos en las explicaciones, asegurando que no refuercen desigualdades preexistentes.
+\end{itemize}
+
+\subsubsection{Consideraciones Éticas}
+
+La implementación de técnicas de explicabilidad no está exenta de riesgos:
+
+\begin{itemize}
+    \item \textbf{Manipulación de explicaciones:} Técnicas como SHAP o LIME pueden ser manipuladas para justificar predicciones incorrectas.
+    \item \textbf{Sesgos en las explicaciones:} Las explicaciones pueden reflejar sesgos preexistentes en los datos o modelos subyacentes.
+    \item \textbf{Complejidad para el usuario final:} Las explicaciones técnicas pueden ser incomprensibles para ciertos usuarios, perpetuando desigualdades en la toma de decisiones.
+\end{itemize}
+
+
+
+\section{Actividad Práctica}
+
+Implementar explicabilidad en un modelo de clasificación bancaria:
+
+\begin{itemize}
+    \item Entrenar un modelo \texttt{RandomForestClassifier} en un conjunto de datos de crédito.
+    \item Generar explicaciones con \texttt{SHAP} y \texttt{LIME}.
+    \item Evaluar si las explicaciones son consistentes con las características clave identificadas en el entrenamiento.
+\end{itemize}
+
+
+
+\section{Juego de Datos}
+Para aplicar las técnicas de explicabilidad e interpretabilidad discutidas en este capítulo, se seleccionaron diversos conjuntos de datos. Estos cubren un amplio espectro de aplicaciones, desde análisis de texto hasta clasificación de imágenes y series temporales.
+
+\subsection{Conjuntos de Datos Clásicos}
+\begin{itemize}
+    \item \textbf{German Credit Dataset:}
+    \begin{itemize}
+        \item \textbf{Descripción:} Contiene información sobre solicitudes de crédito, incluyendo variables como ingresos, historial crediticio y edad.
+        \item \textbf{Fuente:} \url{https://www.kaggle.com/datasets/uciml/german-credit}.
+        \item \textbf{Aplicación:} Evaluar la importancia de las características para explicar la aprobación o rechazo de créditos mediante \texttt{SHAP} o \texttt{LIME}.
+    \end{itemize}
+    
+    \item \textbf{Titanic Survival Dataset:}
+    \begin{itemize}
+        \item \textbf{Descripción:} Incluye datos sobre los pasajeros del Titanic, como clase, edad y género, para predecir la probabilidad de supervivencia.
+        \item \textbf{Fuente:} \url{https://www.kaggle.com/competitions/titanic/data}.
+        \item \textbf{Aplicación:} Analizar explicaciones interpretables en modelos de clasificación binaria usando herramientas como \texttt{SHAP}.
+    \end{itemize}
+    
+    \item \textbf{MNIST Digits:}
+    \begin{itemize}
+        \item \textbf{Descripción:} Conjunto de imágenes de dígitos manuscritos para tareas de clasificación.
+        \item \textbf{Fuente:} \url{https://www.kaggle.com/competitions/digit-recognizer/data}.
+        \item \textbf{Aplicación:} Explorar técnicas visuales como \texttt{Grad-CAM} y mapas de saliencia.
+    \end{itemize}
+    
+    \item \textbf{IMDB Reviews (Texto):}
+    \begin{itemize}
+        \item \textbf{Descripción:} Datos de reseñas de películas etiquetadas como positivas o negativas.
+        \item \textbf{Fuente:} \url{https://ai.stanford.edu/~amaas/data/sentiment/}.
+        \item \textbf{Aplicación:} Implementar técnicas de explicabilidad en modelos de análisis de sentimiento.
+    \end{itemize}
+\end{itemize}
+
+\subsection{Conjuntos de Datos Adicionales}
+\begin{itemize}
+    \item \textbf{Sentiment Analysis de Reseñas de Productos:}
+    \begin{itemize}
+        \item \textbf{Descripción:} Datos de reseñas de clientes etiquetados por satisfacción, ideales para clasificación multiclase.
+        \item \textbf{Fuente:} \url{https://www.kaggle.com/marklvl/sentiment-labelled-sentences-data-set}.
+        \item \textbf{Aplicación:} Utilizar \texttt{SHAP} o atención para generar explicaciones en tareas de texto.
+    \end{itemize}
+    
+    \item \textbf{Electricidad por Horas:}
+    \begin{itemize}
+        \item \textbf{Descripción:} Datos horarios de consumo eléctrico, útiles para analizar patrones de uso.
+        \item \textbf{Fuente:} \url{https://archive.ics.uci.edu/ml/datasets/Individual+household+electric+power+consumption}.
+        \item \textbf{Aplicación:} Explorar explicaciones para modelos de series temporales, como curvas de importancia temporal.
+    \end{itemize}
+\end{itemize}
+
+\subsection{Relevancia y Criterios de Selección}
+Los conjuntos de datos seleccionados cubren diferentes dominios, tipos de datos y niveles de complejidad. Estas son las razones de su elección:
+\begin{itemize}
+    \item \textbf{Diversidad:} Incluyen datos estructurados, no estructurados (texto) y visuales (imágenes).
+    \item \textbf{Accesibilidad:} Disponibles públicamente, fáciles de integrar con herramientas como \texttt{scikit-learn}, \texttt{tensorflow} o \texttt{pytorch}.
+    \item \textbf{Compatibilidad:} Adaptados para implementar técnicas de explicabilidad tanto locales como globales.
+\end{itemize}
+
+
+
+\section{Conclusión del Capítulo 3}
+La explicabilidad e interpretabilidad son herramientas esenciales para garantizar la adopción ética y responsable de la inteligencia artificial. Sin embargo, su implementación plantea desafíos como la manipulación de explicaciones y la tensión entre transparencia y privacidad. Este capítulo proporciona una base para explorar técnicas prácticas que, al integrarse en aplicaciones críticas, refuerzan la confianza en la tecnología y fomentan una adopción equitativa y responsable. En futuros capítulos, se abordará cómo estas técnicas se aplican en casos de uso específicos y su interacción con la justicia algorítmica, la sostenibilidad y la gobernanza de la IA.
+
+
+% Include all entries from chapter-3.bib
+\nocite{*}
+
+% Print bibliography for Chapter 3
+\printbibliography[heading=subbibliography, title={Bibliografía del Capítulo 3}]
+\end{refsection}
